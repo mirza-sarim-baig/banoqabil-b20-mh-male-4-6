@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin:0
+}
+
+/* h1{
+    color: brown;
+} */
+
+.title{
+    /* color: cadetblue; color name */
+    /* color: rgb(44, 48, 48) rbg value */
+    color: #D1957D; /* hex value */
+    background-color: #472c21;
+    font-size:20px;
+    font-weight: 600;
+    /* letter-spacing: 20px; */
+        font-family: monospace;
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+   border: 1px solid #472c21;
+   padding: 10px; /* space inside container */
+   margin: 20px; /* space outside container */
+}

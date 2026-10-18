@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <script>
+      //   let num1 = +prompt("Enter num1");
+      //   let num2 = +prompt("Enter num2");
+      //   let opr = prompt("Enter operator, +,-,*,/");
+
+      //   const cal = (num1, num2, opr) => {
+      //     // let result = num1 opr num2
+      //     let result;
+      //     if (opr == "+") {
+      //       result = num1 + num2;
+      //     } else if (opr == "-") {
+      //       result = num1 - num2;
+      //     } else if (opr == "*") {
+      //       result = num1 * num2;
+      //     } else if (opr == "/") {
+      //       result = num1 / num2;
+      //     } else {
+      //       console.log("Please enter correct opr");
+      //     }
+      //     console.log("Result:", result);
+      //   };
+
+      //   cal(num1, num2, opr);
+
+      //object
+      //   let val = prompt("Which value do you want?");
+      //   let val = "email";
+
+      let user = {
+        id: 1,
+        name: "habib",
+        email: "habib@gmail.com",
+        gender: "male",
+        education: {
+          bacholers: "BSCS",
+          intermediate: "Computer Science",
+          matriculation: "Computer",
+        },
+        number: "+93 900-9900",
+      };
+
+      //   console.log(user[val]);
+      //   console.log(user.email);
+      //   let updatedName = prompt("Enter name");
+      let keyToUpdate = prompt("Enter key");
+      let valOfKey = prompt("Enter key value");
+
+      user[keyToUpdate] = valOfKey;
+      console.log(user);
+
+      let result = "namjje" in user;
+      console.log(result);
+    </script>
+  </body>
+</html>

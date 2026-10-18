@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(
+    to right,
+    #fbed96,#abecd6
+  );
+}
+
+.heroSection{
+    width: 100%;
+    min-height: 500px;
+    border:5px solid black;
+    background-image: url("https://www.apple.com/v/homepage/images/apple-watch-series-12/a/hero_apple_watch_series_12__n9rln7bzvwya_small.jpg");
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.heroSection p {
+    color: white;
+    font-size: 19px;
+        line-height: 1.2105263158;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.heroSection button{
+ font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    width:104px;
+    height:36px;
+    border: 0;
+    border-radius: 20px;
+}
+
+.heroSection .filledBtn{
+   color:white;
+    background-color: #0071E3;
+}
+.heroSection .outlinedBtn{
+ color:#0071E3;
+    background-color: transparent;
+    outline: 1px solid #0071E3;
+}
+
+.heroSection .outlinedBtn:hover{
+ color:white;
+    background-color: #0071E3;
+    cursor: pointer;
+}
+.container{
+    min-height: 200px;
+    width: 100%;
+    border: 5px solid #472c21;
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5HcrQWJbAFGyBTSkRUc70qmjBxE6586tN5thEdogkfuduBLuFz_AkjCBm&s=10);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.box{
+    height: 80px;
+    width:80px;
+    background-color: brown;
+    /* margin: 5px; */
+}
+
+.image img{
+    height: 200px;
+    width:200px;
+    display: block;
+    margin: auto;
+}

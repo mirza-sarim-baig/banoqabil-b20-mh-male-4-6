@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Introduction to js</h1>
+
+    <script>
+      console.log("hello world");
+
+      // 10 number
+      // "10" string
+      // true / false boolean
+      // null object
+      // undefined
+
+      // keyword, variable name, assignment opr, variable value
+      let username = "xyz";
+
+      console.log("hello");
+
+      //   var, let, const
+
+      // variable declare
+      let number;
+
+      // variable value assign
+      number = 10;
+      number = 20;
+
+      //   const
+      const num = 10;
+
+      // keyword    redeclaration   reassignment
+      // var          yes                 yes
+      // let          no                  yes
+      // const        no                  no
+
+      let num1 = 10;
+      let num2 = 20;
+      let num3 = 2;
+      let result = (num1 + num2) * num3;
+
+      console.log(result++); // 60
+      console.log(result++); // 61
+      console.log(result++); // 62
+      console.log(result); //63
+      console.log(result++); // 63
+      console.log(result); //64
+
+      //   pre increment
+      //   post increment
+
+      let val = 10 + 20 + "1" + 10 + 5 + "10";
+      30 + "1" + 10 + 5 + "10";
+      "301" + 10 + 5 + "10";
+      "30110" + 5 + "10";
+      "301105" + "10";
+      ("30110510");
+      console.log(val);
+
+      console.log(20 - "hi");
+    </script>
+  </body>
+</html>
